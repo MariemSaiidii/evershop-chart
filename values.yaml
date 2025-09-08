@@ -3,7 +3,7 @@ evershop:
   replicaCount: 1
   image:
     repository: mariem631/evershop
-    tag: latest
+    tag: latestttt
   imagePullPolicy: IfNotPresent  # Pull from Docker Hub if not present
   containerPort: 3000
   nodePort: 30010 
