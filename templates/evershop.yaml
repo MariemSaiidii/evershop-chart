@@ -10,8 +10,7 @@ spec:
   ports:
     - port: 3000
       targetPort: {{ .Values.evershop.containerPort }}
-      nodePort: {{ .Values.evershop.nodePort }}
-
+      
 ---
 # Deployment for the EverShop app
 apiVersion: apps/v1
